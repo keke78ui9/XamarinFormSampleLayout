@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#f1f1f1"
+             Padding="10"
+             x:Class="SampleLayout.Views.TestPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Vertical" HeightRequest="150" BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="EndAndExpand"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <StackLayout VerticalOptions="End">
+                        <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                    </StackLayout>
+                    
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" HeightRequest="150"  BackgroundColor="White" Padding="10">
+                    <Label Text="Title" FontAttributes="Bold" FontSize="Large"/>
+                    <Label Text="Paragraph is ou may be seeing this error due to one of the reasons listed below. Paragraph is ou may be seeing this error due to one of the reasons listed below Paragraph is ou may be seeing this error due to one of the reasons listed below" FontSize="Small" LineBreakMode="TailTruncation"/>
+                    <Label Text="Next >" HorizontalOptions="End" VerticalOptions="End"></Label>
+                </StackLayout>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
